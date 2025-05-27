@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "shippings",
+  "info": {
+    "singularName": "shipping",
+    "pluralName": "shippings",
+    "displayName": "Shipping"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "support.support"
+    }
+  }
+}

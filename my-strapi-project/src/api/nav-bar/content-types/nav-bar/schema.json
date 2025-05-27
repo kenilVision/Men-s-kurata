@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "nav_bars",
+  "info": {
+    "singularName": "nav-bar",
+    "pluralName": "nav-bars",
+    "displayName": "navBar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "PromotionText": {
+      "type": "string"
+    },
+    "navLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.links"
+    }
+  }
+}
